@@ -8,12 +8,12 @@
 </head>
 <body>
 	<div class="navbar">
-		    <a href="/" th:class="${currentPage} == 'index' ? 'active' : ''">Home</a>
-		    <a href="/registerPage" th:class="${currentPage} == 'addStudent' ? 'active' : ''">Register New Student</a>
-		    <a href="/fetchAll" th:class="${currentPage} == 'viewAll' ? 'active' : ''">View All Students</a>
-		    <a href="/searchPage" th:class="${currentPage} == 'searchStudent' ? 'active' : ''">Search Student</a>
-		    <a href="/updatePage" th:class="${currentPage} == 'updateStudent' ? 'active' : ''">Update Student</a>
-		    <a href="/deletePage" th:class="${currentPage} == 'deleteStudent' ? 'active' : ''">Delete Student</a>
+		    <a href="/index" th:class="${currentPage} == 'index' ? 'active' : ''">Home</a>
+		    <a href="/addStudent" th:class="${currentPage} == 'addStudent' ? 'active' : ''">Register New Student</a>
+		    <a href="/studentList" th:class="${currentPage} == 'viewAll' ? 'active' : ''">View All Students</a>
+		    <a href="/searchStudent" th:class="${currentPage} == 'searchStudent' ? 'active' : ''">Search Student</a>
+		    <a href="/updateStudent" th:class="${currentPage} == 'updateStudent' ? 'active' : ''">Update Student</a>
+		    <a href="/deleteStudent" th:class="${currentPage} == 'deleteStudent' ? 'active' : ''">Delete Student</a>
 		</div>
     
 		<div class="container">
